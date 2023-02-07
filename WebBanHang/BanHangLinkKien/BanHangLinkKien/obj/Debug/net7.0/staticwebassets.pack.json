@@ -321,6 +321,594 @@
       "PackagePath": "staticwebassets\\Adminassets\\vendor\\libs\\popper\\popper.js"
     },
     {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\asset\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\default.css",
+      "PackagePath": "staticwebassets\\asset\\css\\default.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\asset\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\asset\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\asset\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\asset\\css\\jquery.fancybox.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\asset\\css\\linearicons.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\asset\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\asset\\css\\nice-select.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\nivo-slider.css",
+      "PackagePath": "staticwebassets\\asset\\css\\nivo-slider.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\asset\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\asset\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\asset\\fonts\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\asset\\fonts\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\asset\\fonts\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\asset\\fonts\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\asset\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\asset\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\asset\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\asset\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\asset\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\asset\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\ionicons.eot",
+      "PackagePath": "staticwebassets\\asset\\fonts\\ionicons.eot"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\ionicons.svg",
+      "PackagePath": "staticwebassets\\asset\\fonts\\ionicons.svg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\asset\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\asset\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\5.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\5.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner-fnd.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner-fnd.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner-kds.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner-kds.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner-sidebar.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner-sidebar.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner-wmn.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner-wmn.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-3.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-3.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-4.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-4.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-5.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-5.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-6.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-6.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-7.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-7.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\banner3-8.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\banner3-8.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\electorince.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\electorince.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\h1-band1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\h1-band1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\h1-band2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\h1-band2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\h1-banner.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\h1-banner.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\h1-banner3.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\h1-banner3.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\banner\\pop-banner.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\banner\\pop-banner.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\blog\\1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\blog\\10.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\blog\\10.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\blog\\2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\brand\\1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\brand\\1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\brand\\2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\brand\\2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\brand\\3.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\brand\\3.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\brand\\4.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\brand\\4.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\asset\\img\\favicon.ico"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\header\\1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\header\\1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\header\\2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\header\\2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\icon\\bg-l-sale.png",
+      "PackagePath": "staticwebassets\\asset\\img\\icon\\bg-l-sale.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\icon\\social-img1.png",
+      "PackagePath": "staticwebassets\\asset\\img\\icon\\social-img1.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\icon\\social-img2.png",
+      "PackagePath": "staticwebassets\\asset\\img\\icon\\social-img2.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\asset\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\logo\\logo2.png",
+      "PackagePath": "staticwebassets\\asset\\img\\logo\\logo2.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\payment\\1.png",
+      "PackagePath": "staticwebassets\\asset\\img\\payment\\1.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\10.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\10.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\11.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\11.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\12.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\12.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\13.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\13.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\14.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\14.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\15.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\15.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\16.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\16.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\17.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\17.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\18.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\18.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\19.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\19.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\20.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\20.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\21.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\21.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\22.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\22.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\23.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\23.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\24.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\24.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\25.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\25.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\26.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\26.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\27.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\27.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\28.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\28.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\29.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\29.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\3.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\30.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\30.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\31.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\31.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\32.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\32.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\33.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\33.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\34.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\34.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\35.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\35.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\36.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\36.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\37.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\37.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\38.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\38.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\39.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\39.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\4.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\4.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\40.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\40.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\41.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\41.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\42.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\42.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\43.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\43.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\5.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\5.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\6.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\6.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\7.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\7.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\8.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\8.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\products\\9.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\products\\9.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\3.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\3.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\4.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\4.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\5.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\5.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\6.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\6.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\7.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\7.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\slider\\8.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\slider\\8.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\team\\4.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\1.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\1.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\10.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\10.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\11.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\11.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\3.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\3.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\4.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\4.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\5.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\5.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\6.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\6.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\7.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\7.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\8.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\8.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\9.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\9.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\icon-collapse.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\icon-collapse.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\icon-expand.png",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\icon-expand.png"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\sub-img1.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\sub-img1.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\sub-img2.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\sub-img2.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\img\\vertical-menu\\sub-img3.jpg",
+      "PackagePath": "staticwebassets\\asset\\img\\vertical-menu\\sub-img3.jpg"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\asset\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\jquery.meanmenu.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\jquery.meanmenu.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\jquery.nivo.slider.js",
+      "PackagePath": "staticwebassets\\asset\\js\\jquery.nivo.slider.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\jquery.scrollUp.js",
+      "PackagePath": "staticwebassets\\asset\\js\\jquery.scrollUp.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\main.js",
+      "PackagePath": "staticwebassets\\asset\\js\\main.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\asset\\js\\plugins.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\vendor\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\vendor\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\asset\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\asset\\style.css",
+      "PackagePath": "staticwebassets\\asset\\style.css"
+    },
+    {
       "Id": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
