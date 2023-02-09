@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BanHangLinkKien.Models;
+using AspNetCoreHero.ToastNotification.Abstractions;
+using NuGet.Protocol;
 
 namespace BanHangLinkKien.Areas.Admin.Controllers
 {
@@ -13,35 +15,48 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
     public class AdminRolesController : Controller
     {
         private readonly ShoplinkkienContext _context;
+        public INotyfService _notyfService { get;  }
 
-        public AdminRolesController(ShoplinkkienContext context)
+        public AdminRolesController(ShoplinkkienContext context, INotyfService notyfService)
         {
             _context = context;
+            _notyfService= notyfService;
         }
 
         // GET: Admin/AdminRoles
         public async Task<IActionResult> Index()
         {
-              return _context.Roles != null ? 
-                          View(await _context.Roles.ToListAsync()) :
-                          Problem("Entity set 'ShoplinkkienContext.Roles'  is null.");
+            //return _context.Roles != null ? 
+            //            View(await _context.Roles.ToListAsync()) :
+            //            Problem("Entity set 'ShoplinkkienContext.Roles'  is null.");
+            return View(await _context.Roles.ToListAsync());
         }
 
         // GET: Admin/AdminRoles/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Roles == null)
+            //if (id == null || _context.Roles == null)
+            //{
+            //    return NotFound();
+            //}
+
+            //var role = await _context.Roles
+            //    .FirstOrDefaultAsync(m => m.RoleId == id);
+            //if (role == null)
+            //{
+            //    return NotFound();
+            //}
+
+            //return View(role);
+            if(id == null)
             {
                 return NotFound();
             }
-
-            var role = await _context.Roles
-                .FirstOrDefaultAsync(m => m.RoleId == id);
-            if (role == null)
+            var role= await _context.Roles.FirstOrDefaultAsync(m=>m.RoleId == id);
+            if(role==null)
             {
                 return NotFound();
             }
-
             return View(role);
         }
 
@@ -62,6 +77,7 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
             {
                 _context.Add(role);
                 await _context.SaveChangesAsync();
+                _notyfService.Success("Tạo mới thành công");
                 return RedirectToAction(nameof(Index));
             }
             return View(role);
@@ -70,13 +86,23 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
         // GET: Admin/AdminRoles/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Roles == null)
+            //if (id == null || _context.Roles == null)
+            //{
+            //    return NotFound();
+            //}
+
+            //var role = await _context.Roles.FindAsync(id);
+            //if (role == null)
+            //{
+            //    return NotFound();
+            //}
+            //return View(role);
+            if(id == null)
             {
                 return NotFound();
             }
-
             var role = await _context.Roles.FindAsync(id);
-            if (role == null)
+            if(role == null)
             {
                 return NotFound();
             }
@@ -101,11 +127,13 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
                 {
                     _context.Update(role);
                     await _context.SaveChangesAsync();
+                    _notyfService.Success("Cập nhật thành công");
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!RoleExists(role.RoleId))
                     {
+                        _notyfService.Success("Có lỗi xảy ra");
                         return NotFound();
                     }
                     else
@@ -121,18 +149,28 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
         // GET: Admin/AdminRoles/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Roles == null)
+            //if (id == null || _context.Roles == null)
+            //{
+            //    return NotFound();
+            //}
+
+            //var role = await _context.Roles
+            //    .FirstOrDefaultAsync(m => m.RoleId == id);
+            //if (role == null)
+            //{
+            //    return NotFound();
+            //}
+
+            //return View(role);
+            if(id== null)
             {
                 return NotFound();
             }
-
-            var role = await _context.Roles
-                .FirstOrDefaultAsync(m => m.RoleId == id);
-            if (role == null)
+            var role =await _context.Roles.FirstOrDefaultAsync(m => m.RoleId == id);
+            if(role == null)
             {
                 return NotFound();
             }
-
             return View(role);
         }
 
@@ -141,23 +179,29 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Roles == null)
-            {
-                return Problem("Entity set 'ShoplinkkienContext.Roles'  is null.");
-            }
+            //if (_context.Roles == null)
+            //{
+            //    return Problem("Entity set 'ShoplinkkienContext.Roles'  is null.");
+            //}
+            //var role = await _context.Roles.FindAsync(id);
+            //if (role != null)
+            //{
+            //    _context.Roles.Remove(role);
+            //}
+
+            //await _context.SaveChangesAsync();
+            //return RedirectToAction(nameof(Index));
             var role = await _context.Roles.FindAsync(id);
-            if (role != null)
-            {
-                _context.Roles.Remove(role);
-            }
-            
+            _context.Roles.Remove(role);
             await _context.SaveChangesAsync();
+            _notyfService.Success("Xóa quyền truy cập thành công");
             return RedirectToAction(nameof(Index));
         }
 
         private bool RoleExists(int id)
         {
-          return (_context.Roles?.Any(e => e.RoleId == id)).GetValueOrDefault();
+          //return (_context.Roles?.Any(e => e.RoleId == id)).GetValueOrDefault();
+          return _context.Roles.Any(e=>e.RoleId == id);
         }
     }
 }

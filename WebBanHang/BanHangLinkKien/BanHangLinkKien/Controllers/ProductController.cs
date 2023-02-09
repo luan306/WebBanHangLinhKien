@@ -17,7 +17,7 @@ namespace BanHangLinkKien.Controllers
         }
         public IActionResult Details(int id)
         {
-            var product=_context.Products.Include(x=>x.Cat).FirstOrDefault(x=>x.ProductId == id);
+            var product = _context.Products.Include(x => x.Cat).FirstOrDefault(x => x.ProductId == id);
             if(product == null)
             {
                 return RedirectToAction("Index");
