@@ -22,6 +22,7 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
         // GET: Admin/AdminAccounts
         public async Task<IActionResult> Index()
         {
+            ViewData["QuyenTruyCap"] = new SelectList(_context.Roles, "RoleId", "Description");
             var shoplinkkienContext = _context.Accounts.Include(a => a.Role);
             return View(await shoplinkkienContext.ToListAsync());
         }
