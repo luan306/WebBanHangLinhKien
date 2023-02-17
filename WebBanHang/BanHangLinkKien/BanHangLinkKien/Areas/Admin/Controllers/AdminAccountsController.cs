@@ -22,7 +22,12 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
         // GET: Admin/AdminAccounts
         public async Task<IActionResult> Index()
         {
-            ViewData["QuyenTruyCap"] = new SelectList(_context.Roles, "RoleId", "Description");
+            ViewData["QuyenTruyCap"] = new SelectList(_context.Roles, "RoleId", "Descriptiton");
+            List<SelectListItem> lsTrangThai = new List<SelectListItem>();
+            lsTrangThai.Add(new SelectListItem() { Text = "Active", Value = "1" });
+            lsTrangThai.Add(new SelectListItem() { Text = "Block", Value = "0" });
+            ViewData["lsTrangThai"] = lsTrangThai;
+
             var shoplinkkienContext = _context.Accounts.Include(a => a.Role);
             return View(await shoplinkkienContext.ToListAsync());
         }

@@ -82,28 +82,40 @@
 }
     </tbody>
 </table>*@
-<div class="demo-inline-spacing">
-<div class="btn-group">
-   
-    <select class="btn btn-primary dropdown-toggle" asp-items="ViewBag.QuyenTruyCap">
-        <option value="" disabled selected>Chọn quyền truy cập</option>
-    </select>
-    </div>
-</div>
+
 <h4 class="fw-bold py-3 mb-4">
     <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="text-muted fw-light">Home / </a>
     <span class="text-muted fw-light">Danh sách tài khoản quản trị</span>
 </h4>
                 <div class="card">
+    <div class="demo-inline-spacing">
+        <div class="card mb-4">
+           
+                <div class="row gx-3 gy-2 align-items-center">
+                    <div class="col-md-3">
+                        <select class="form-select color-dropdown" id="idrole" name="idrole" asp-items="ViewBag.QuyenTruyCap">
+                            <option value="0" disabled selected>Chọn quyền truy cập</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select placement-dropdown" id="idstatus" name="idstatus" asp-items="ViewBag.lsTrangThai">
+                            <option value="0" disabled selected>Chọn trạng thái</option>
+                        </select>
+                    </div>
+                </div>
+         
+        </div>
+    </div>
                 <h5 class="card-header">Danh sách tài khoản quản trị</h5>
                 <div class="table-responsive text-nowrap">
                   <table class="table">
                     <thead>
                       <tr>
                         <th>ID</th>
-                        <th>FullName</th>
+                        <th>Họ Và Tên</th>
                         <th>Email</th>
-                        <th>Phone</th>
+                        <th>Điện thoại</th>
+                        <th>Lần đăng nhập cuối</th>
                         <th>Quyền truy cập</th>
                         <th>Trạng thái</th>
 
@@ -119,6 +131,7 @@
                                     <td>@item.FullName</td>
                                     <td>@item.Email</td>
                                     <td>@item.Phone</td>
+                                    <td>@item.LastLogin</td>
                                     <td>@item.Role.Descriptiton</td>
                                       
     
@@ -149,8 +162,8 @@
                                         </ul>
                                     </td>
 
-                                  @*  <td>
-                                        @if (item.Active)
+                                    <td>
+                                        if (item.Active)
                                         {
                                             <span class="badge bg-label-primary me-1">Active</span>
                                         }
@@ -158,7 +171,7 @@
                                         {
                                             <span class="badge bg-label-primary me-1">Block</span>
                                         }
-                                    </td>*@
+                                    </td>
                                     <td>
                                         <div class="dropdown">
                                             <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">

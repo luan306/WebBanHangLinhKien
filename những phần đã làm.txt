@@ -5,3 +5,4 @@ giao diện chính
 
 làm được phần notification
 - thêm tài khoản
+- đã fix cong active and block tài khoản
