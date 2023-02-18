@@ -244,9 +244,23 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div data-i18n="Connections">Connections</div>
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                        <div data-i18n="Account Settings">Quản lý khách hàng</div>
                     </a>
+                    <ul class="menu-sub">
+                        <li class="menu-item">
+                            
+                            <a class="menu-link" asp-area="Admin" asp-controller="AdminCustomers" asp-action="Index">
+                                <div data-i18n="Account">Danh sách khách hàng</div>
+                            </a>
+                        </li> 
+                        <li class="menu-item">
+
+                            <a class="menu-link" asp-area="Admin" asp-controller="AdminRoles" asp-action="Index">
+                                <div data-i18n="Account">Tìm kiếm khách hàng</div>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </li>
