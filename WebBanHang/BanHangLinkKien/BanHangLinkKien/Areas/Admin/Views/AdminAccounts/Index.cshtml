@@ -4,12 +4,30 @@
     ViewData["Title"] = "Danh sách tài khoản quản trị";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
+<div class="card">
+   
+    <div class="card-body">
+        <!-- Basic Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a asp-area="Admin" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a asp-area="Admin" asp-controller="AdminAccounts" asp-action="Index">Danh sách tài khoản quản trị</a>
+                </li>
+               
+            </ol>
+        </nav>
+        <!-- Basic Breadcrumb -->
+        
+    </div>
+</div>
 
-
-<h4 class="fw-bold py-3 mb-4">
+@*<h4 class="fw-bold py-3 mb-4">
     <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="text-muted fw-light">Home / </a>
     <span class="text-muted fw-light">Danh sách tài khoản quản trị</span>
-</h4>
+</h4>*@
                 <div class="card">
     <div class="demo-inline-spacing">
         <div class="card mb-4">
