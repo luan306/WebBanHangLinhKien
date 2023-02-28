@@ -21,15 +21,36 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
         }
 
         // GET: Admin/AdminProducts
-        public IActionResult Index(int? page)
+        public IActionResult Index(int page=1, int CatID =0)
         {
-            var pageNumber = page == null || page <= 0 ? 1 : page.Value;
+            var pageNumber = page;
             var pageSize = 20;
-            var lsProducts = _context.Products.AsNoTracking().Include(x => x.Cat).OrderByDescending(x => x.ProductId);
-            PagedList<Product> models = new PagedList<Product>(lsProducts, pageNumber, pageSize);
+            List<Product> lsProducts = new List<Product>();
+            if (CatID != 0)
+            {
+                lsProducts = _context.Products.AsNoTracking().Where(x=>x.CatId==CatID).Include(x => x.Cat).OrderByDescending(x => x.ProductId).ToList();
+            }
+            else
+            {
+                lsProducts = _context.Products.AsNoTracking().Include(x => x.Cat).OrderByDescending(x => x.ProductId).ToList();
+            }
+           
+            PagedList<Product> models = new PagedList<Product>(lsProducts.AsQueryable(), pageNumber, pageSize);
+            ViewBag.CurrentCateID = CatID;
             ViewBag.CurrentPage = pageNumber;
-            ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName");
+            ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName", CatID);
             return View(models);
+        }
+        public IActionResult Filtter(int CatID = 0)
+        {
+
+            var url = $"/Admin/AdminProducts?CatID={CatID}";
+            if (CatID == 0)
+            {
+                url = $"/Admin/AdminProducts";
+            }
+            return Json(new { status = "success", redirectUrl = url });
+
         }
 
         // GET: Admin/AdminProducts/Details/5
@@ -127,7 +148,7 @@ namespace BanHangLinkKien.Areas.Admin.Controllers
             ViewData["DanhMuc"] = new SelectList(_context.Categories, "CatId", "CatName", product.CatId);
             return View(product);
         }
-
+       
         // GET: Admin/AdminProducts/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
