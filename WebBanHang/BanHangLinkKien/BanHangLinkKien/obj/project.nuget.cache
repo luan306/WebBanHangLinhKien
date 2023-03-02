@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3XbnEYVo0bPClk9/dVlXkKbRBTQGGgO7VM5uIg4vGFoQQnNX3SaoLUIVijulPYW1gFQnjLPO9zJ1hyf4XhaTeA==",
+  "dgSpecHash": "UngqYa93MxXmhSApVRnm6uyBf36sMVmGfPkzgrzi5kv4+0eU5ZUduU3EsgrW5QUwc7ViAllM28WdsL38Z1RyFA==",
   "success": true,
   "projectFilePath": "E:\\FILE_DOCUMENT\\BACK-END\\WebBanHang\\BanHangLinkKien\\BanHangLinkKien\\BanHangLinkKien.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,7 @@
     "C:\\Users\\LUAN-PC\\.nuget\\packages\\microsoft.net.stringtools\\17.3.2\\microsoft.net.stringtools.17.3.2.nupkg.sha512",
     "C:\\Users\\LUAN-PC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\LUAN-PC\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\LUAN-PC\\.nuget\\packages\\microsoft.office.interop.outlook\\15.0.4797.1004\\microsoft.office.interop.outlook.15.0.4797.1004.nupkg.sha512",
     "C:\\Users\\LUAN-PC\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\LUAN-PC\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\7.0.4\\microsoft.visualstudio.web.codegeneration.7.0.4.nupkg.sha512",
     "C:\\Users\\LUAN-PC\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\7.0.4\\microsoft.visualstudio.web.codegeneration.core.7.0.4.nupkg.sha512",
